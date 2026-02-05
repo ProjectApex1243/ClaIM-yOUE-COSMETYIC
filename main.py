@@ -3,9 +3,9 @@ from discord.ext import commands
 import requests
 import os
 
-PLAYFAB_TITLE_ID = os.getenv('1E0677')
-PLAYFAB_SECRET_KEY = os.getenv('Y75W36PFBN31KOPUJD79PMIFECGD6XIM3A4D3KMJ8A1IHCPMFO')
-BOT_TOKEN = os.getenv('MTQ2ODc2ODg4MTQwMDIxNzcyNA.GAs8x1.9CnxHJ3F3accJ7Bqi1a-vywUKVqszX8rs0xw8s')
+PLAYFAB_TITLE_ID = os.getenv('PLAYFAB_TITLE_ID')
+PLAYFAB_SECRET_KEY = os.getenv('PLAYFAB_SECRET_KEY')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 intents = discord.Intents.default()
 intents.message_content = True
